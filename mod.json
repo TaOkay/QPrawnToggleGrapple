@@ -1,0 +1,11 @@
+{
+  "Id": "qprawn_toggle_grapple.mod",
+  "DisplayName": "QPrawnToggleGrapple",
+  "Author": "TaOkay",
+  "Version": "1.0.0",
+  "Requires": [ "0Harmony.dll" ],
+  "Enable": true,
+  "AssemblyName": "QPrawnToggleGrapple.dll",
+  "EntryMethod": "QPrawnToggleGrapple.QPatch.Patch",
+  "Config": {}
+}
