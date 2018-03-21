@@ -4,7 +4,7 @@ using Harmony;
 
 namespace QPrawnToggleGrapple
 {
-    internal class QPatch
+    internal static class QPatch
     {
         public static void Patch()
         {
