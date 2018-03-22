@@ -5,7 +5,7 @@ namespace QPrawnToggleGrapple.Patches
 {
     [HarmonyPatch(typeof(ExosuitGrapplingArm))]
     [HarmonyPatch("OnAltDown")]
-    internal static class ExosuitGrapplingArm_OnAltDown_Patch
+    internal class ExosuitGrapplingArm_OnAltDown_Patch
     {
         private static void Postfix(ExosuitGrapplingArm __instance)
         {
